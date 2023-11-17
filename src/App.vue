@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <header></header>
+  <header>
+
+  </header>
 
   <main>
     <section id="home">
@@ -159,6 +161,7 @@
             name="email"
             required=""
           />
+          
           <textarea
             class="form-input"
             placeholder="Your Message"
@@ -214,6 +217,7 @@
         </div>
       </div>
     </footer>
+    
   </main>
 </template>
 
