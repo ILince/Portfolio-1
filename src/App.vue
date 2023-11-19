@@ -1,9 +1,7 @@
 <script setup></script>
 
 <template>
-  <header>
-
-  </header>
+  <header></header>
 
   <main>
     <section id="home">
@@ -50,10 +48,10 @@
 
           <div class="label-description">
             <p class="about-description">
-              I'm Joe Dao and I use Lince as a nickname on social networks. I am
-              a full-stack web developer. Passionate about our univers and
-              technologies, I like to create and I'm always curious to learn
-              more about new tech and creative coding. <br />Let's make
+              I'm Lehacaut Allan and I use Lince as a nickname on social
+              networks. I am a full-stack web developer. Passionate about our
+              univers and technologies, I like to create and I'm always curious
+              to learn more about new tech and creative coding. <br />Let's make
               something special.
             </p>
 
@@ -123,13 +121,116 @@
       <div class="portfolio-container">
         <h2>Portfolio</h2>
 
-        <div class="projects-container">
-          <div class="projects"></div>
-          <div class="projects"></div>
-          <div class="projects"></div>
-          <div class="projects"></div>
-          <div class="projects"></div>
-          <div class="projects"></div>
+        <div id="gallery" class="container-flex">
+          <div
+            class="projects"
+            data-my-order="1"
+            data-bound=""
+            style="display: inline-block"
+          >
+            <div>
+              <img class="card" src="./assets/images/Portfolio images/Cv.png" />
+              <div class="projects-text">
+                <h4>First online Cv</h4>
+                <p>HTML / CSS3</p>
+              </div>
+              <div class="button">VIEW MORE</div>
+            </div>
+          </div>
+
+          <div
+            class="projects"
+            data-my-order="1"
+            data-bound=""
+            style="display: inline-block"
+          >
+            <div>
+              <img
+                class="card"
+                src="./assets/images/Portfolio images/Comment.png"
+              />
+              <div class="projects-text">
+                <h4>Comment area</h4>
+                <p>JavaScript</p>
+              </div>
+              <div class="button">VIEW MORE</div>
+            </div>
+          </div>
+
+          <div
+            class="projects"
+            data-my-order="1"
+            data-bound=""
+            style="display: inline-block"
+          >
+            <div>
+              <img
+                class="card"
+                src="./assets/images/Portfolio images/Astronaut-Remote-Work.jpg"
+              />
+              <div class="projects-text">
+                <h4>Work in progress ...</h4>
+                <p>React / Ruby on Rails / AEM</p>
+              </div>
+              <div class="button">VIEW MORE</div>
+            </div>
+          </div>
+
+          <div
+            class="projects"
+            data-my-order="1"
+            data-bound=""
+            style="display: inline-block"
+          >
+            <div>
+              <img
+                class="card"
+                src="./assets/images/Portfolio images/Astronaut-Remote-Work.jpg"
+              />
+              <div class="projects-text">
+                <h4>Work in progress ...</h4>
+                <p>JavaScript</p>
+              </div>
+              <div class="button">VIEW MORE</div>
+            </div>
+          </div>
+          <div
+            class="projects"
+            data-my-order="1"
+            style="display: inline-block"
+            data-bound=""
+          >
+            <div>
+              <img
+                class="card"
+                src="./assets/images/Portfolio images/Astronaut-Remote-Work.jpg"
+              />
+              <div class="projects-text">
+                <h4>Work in progress ...</h4>
+                <p>JS / Ruby on Rails</p>
+              </div>
+              <div class="button">VIEW MORE</div>
+            </div>
+          </div>
+
+          <div
+            class="projects"
+            data-my-order="1"
+            style="display: inline-block"
+            data-bound=""
+          >
+            <div>
+              <img
+                class="card"
+                src="./assets/images/Portfolio images/Astronaut-Remote-Work.jpg"
+              />
+              <div class="projects-text">
+                <h4>Work in progress ...</h4>
+                <p>JS / Ruby on Rails</p>
+              </div>
+              <div class="button">VIEW MORE</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -161,7 +262,7 @@
             name="email"
             required=""
           />
-          
+
           <textarea
             class="form-input"
             placeholder="Your Message"
@@ -217,7 +318,6 @@
         </div>
       </div>
     </footer>
-    
   </main>
 </template>
 
