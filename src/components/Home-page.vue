@@ -306,7 +306,7 @@ export default {
 }
 
 .card {
-  object-fit: center/cover;
+  object-fit: cover;
   height: 300px;
   width: 100%;
   border-bottom: solid rgba(250, 250, 250, 0.815) 10px;
@@ -324,7 +324,6 @@ export default {
 .button {
   background-color: #252934;
   color: #fff;
-  float: center;
   font-size: 12pt;
   margin: 5px 0 0 0;
   outline: 0;

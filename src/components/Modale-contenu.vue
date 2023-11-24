@@ -146,7 +146,7 @@ export default {
 .btn {
   background-color: #252934;
   color: #fff;
-  float: center;
+  
   font-size: 12pt;
   margin: 5px 0 0 0;
   outline: 0;
@@ -157,53 +157,5 @@ export default {
 .btn:hover {
   background: #e31b6d;
 }
-.bloc-modale {
-    position: fixed;
-    top: 10%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.overlay {
-    background: rgba(0, 0, 0, 0.185);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-}
-
-.modale {
-    border: solid #e31b6d;
-    width: auto;
-    height: auto;
-    background: #f1f1f1;
-    color: #333;
-    padding: 20px;
-    position: fixed;
-
-}
-
-.btn-modale {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-
-}
-
-.btn-danger {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: azure;
-    background: #e31b6d;
-    width: 15px;
-    border-radius: 30%;
-}
 </style>
